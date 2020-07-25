@@ -1,0 +1,98 @@
+ol {
+    border: 5px solid black;
+    text-align: left;
+}
+
+.fixMLSizeBig {
+    font-size: 100px;
+}
+
+.fixMLSize {
+    font-size: 50px;
+}
+
+.choicesDiv {
+    display: inline-flex;
+}
+
+.choicesTitle {
+    width: 50%;
+}
+
+#tf-space {
+    width: 1em;
+}
+
+#dragThis {
+    width: 10em;
+    height: 10em;
+    padding: 0.5em;
+    border: 3px solid #ccc;
+    border-radius: 0 1em 1em 1em;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#dragThis span {
+    float: right;
+}
+
+#dragThis span:after {
+    content: "px";
+}
+
+li {
+    clear: both;
+    border-bottom: 1px solid lightblue;
+    line-height: 1.2em;
+}
+
+#dropTrue, #dropFalse {
+    align-self: center;
+    width: 10em;
+    height: 10em;
+    border: 3px solid orchid;
+    border-radius: 1em;
+}
+
+body {
+    background-color: aquamarine;
+    font-size: 15px;
+    color: navy;
+}
+
+.jumbotron {
+    border: 5px solid black;
+    border-radius: 5%;
+    font-size: 20px;
+}
+
+.mainLogo {
+    color:lightcoral;
+    font-size: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+    color: gray;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>True or False</title>
+        <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <main class="container" style="text-align: center">
+          <div class="jumbotron">
+            <img src= 'img/torf.jpg' alt="logo" height="250" width="250">
+            <h1>Olivia's True or False Card Game</h1>
+            <br>
+            <h1>Instructions:</h1>
+            <h2>
+              Drag the question card to either the "True" 
+              or "False" box.
+            </h2>
+          </div>
+
+          <div class="jumbotron" id="gameDataWindow">
+            <a class="btn btn-lg btn-primary" id="resetButton" href="#" onclick="ResetGame(); return false">Restart Game &raquo;</a>
+            <h1 class="mainLogo points" id="pointText">Points:</h1>
+          </div>
+
+          <div class="jumbotron" id="dragWindow">
+            <br>
+            <div id="resetPos"></div>
+            <div id="dragThis">
+              <h1 class="mainLogo" id="dragTitle"></h1>
+              <p id="dragQuestion"></p>
+            </div>
+            
+            <div class="choicesDiv">
+              <div>
+                <h1>True</h1>
+                <div id="dropTrue"></div>
+              </div>
+
+              <div id="tf-space"></div>
+
+              <div>
+                <h1>False</h1>
+                <div id="dropFalse"></div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <div id="footerPH" style="text-align: center">Created 7/24/20</div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
